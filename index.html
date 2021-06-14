@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <title>Welcome to Nicole's Landing Page</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="land1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/79bd744b39.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
+    <!-- Icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <a href="https://icons8.com/icon/HIm1yQqzPuwk/edit"></a>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <script src="./onscroll-effect.es6.min.js"></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div class="contsidenav">
+            <div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#"><img src="./lplogo/linkedin.png" id="imgg" class="img2">Linkedin</a>
+            <a href="#"><img src="./lplogo/github.png" id="imgg" class="img2">Github</a>
+            <a href="#"><img src="./lplogo/instagram.png" id="imgg" class="img2">Instagram</a>
+            <a href="#"><img src="./lplogo/email-marketing.png" id="imgg" class="img2">Email</a>
+            </div>
+        <div class="bawahnav"><hr><img src="./lplogo/social-media.png" id="imgg" class="img2"><p style="color:#f6f6f6;">My Social Medias</p></div>
+        </div> 
+    </div>
+      
+      <!-- Use any element to open the sidenav -->
+      
+      <div class="dropdwn" onclick="openNav()">
+        <a href="#" class="keep">Keep in<img src="./lplogo/finger.png" class="logoatas"></a>
+    
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button> -->
+    </div>
+      
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main">
+            <!-- Header> -->
+            <header>
+                <!-- <div class="d-flex">
+                    <ul>
+                        <li class="mb-3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="mb-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="mb-3"><a href="#"><i class="fab fa-github-square"></i></a></li>
+                        <li class="mb-3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div> -->
+                
+                <nav class="nav-menu-container">
+                    
+                        <div class="nav-links" id="navbar">
+                            <div class="logocont"><a href="#"><img src="nicole_logo11.png" class="logokiri"></a></div>
+                            <div class="drop">
+                        <ul>
+                        <li> <a href ="#title">Home</a></li>
+                        <li> <a href ="#sqil">About</a></li>
+                        <li> <a href ="#porto">Portfolio
+                            <!-- <i class="fas fa-caret-down"></i> -->
+                        </a>
+                                <ul>
+                                    <li><a href="#">Languages 
+                                        <!-- <i class="fas fa-caret-down" style="transform: rotate(-90deg);"></i>  -->
+                                    </a>
+                                        <ul>
+                                            <li><a href="#">Javascript, CSS, HTML</a></li>
+                                            <li><a href="#">C++</a></li>
+                                            <li><a href="#">Python</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Services</a></li>
+                                </ul>
+                            </li>
+                        <li> <a href ="#blogs">Blog 
+                            <!-- <i class="fas fa-caret-down"></i> -->
+                            </a>
+                                <ul>
+                                    <li><a href="#">Pages</a></li>
+                                </ul>
+                            </li>
+                        <li> <a href ="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                        </div>
+                </nav>
+            </header>
+
+            
+            <!-- Page Title -->
+            <section class="konten" id="title">
+                <div class="container-pagetitle">
+                    <img src="./bg.jpg" class="bg">
+                    <div class="tengah">
+                        <h1 class="pagetitle">Hi! I'm <br>Nicole</h1>
+                    <p class="pagetitle2">A Web Developer <br><span class="soon">(coming soon)</span></p>
+                    </div>
+                    <p class="tulisan mt-5">Welcome to my landing page! I'm a newbie here so please don't judge my works harshly. Instead, please review and give feedbacks to help me improve! It means a lot.</p>
+                    <a href="about.html" class="know"><b>Know More</b></a>
+                </div>
+
+            </section>
+
+            <!-- Skills -->
+            <section id="sqil">
+                <div><h2 class="sub"><b>Skills</b></h2></div>
+                <div class="skill">
+                    <div class="contain-sub">
+                        <!-- <i class="far fa-file-code"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-js-square"></i> -->
+                        <div class="pskills">
+                            <h3><b>What is My <a onclick="showProgressBar()" href="#sqil">Skill Level?</b></a></h3><br>
+                            <p><span style="font-weight: 600;text-align: justify;">Are you curious?</span> (hint: click them blue "Skill Level?")<br></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis reiciendis sunt optio, atque nisi? Exercitationem nihil inventore ipsa! Placeat, nihil quibusdam necessitatibus dolores quod esse consectetur laboriosam commodi incidunt.</p>
+                        </div>
+                        <div class="komponenskill">
+                            <div class="cardskill">
+                                <div class="logoskill"><img src="./lplogo/photoshop.png" class="img1"></div>
+                                <div class="isiskill" >
+                                    <div><p style="color:#2541b2;">Photoshop</p></div>
+                                    <div class="progress" id="bar1" data-scroll data-scroll-repeat="true" onshow="updateProgressBar(pBar,80)">
+                                        <div class="progress__fill" id="fill1"><div class="progress__text">0%</div></div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tengah1">
+                                <div class="cardskill1">
+                                    <div class="logoskill"><img src="./lplogo/javascript.png" class="img1"></div>
+                                    <div class="isiskill">
+                                        <div><p style="color:#E4BA42;">Javascript</p></div>
+                                        <div class="progress1" id="bar2">
+                                            <div class="progress__fill" id="fill2"><div class="progress__text">0%</div></div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cardskill2">
+                                    <div class="logoskill"><img src="./lplogo/browser.png" class="img1"></div>
+                                    <div class="isiskill">
+                                        <div><p style="color:#A5DC69;">HTML & CSS</p></div>
+                                        <div class="progress2" id="bar3">
+                                            <div class="progress__fill" id="fill3"><div class="progress__text">0%</div></div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="cardskill3">
+                                <div class="logoskill"><img src="./lplogo/python.png" class="img1"></div>
+                                <div class="isiskill">
+                                    <div><p style="color:#233e8b;">Python</p></div>
+                                    <div class="progress3" id="bar4">
+                                        <div class="progress__fill" id="fill4"><div class="progress__text">0%</div></div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+            <!-- Work Experience     -->
+            <section class="edu">
+                <div>
+                    <h2 class="sub"><b>Education and Work Experiences</b></h2>
+                </div>
+                <fieldset>
+                <legend class="wed"><h4>Education</h4></legend>
+                <div class="container-edu">
+                    <div class="kol1">
+                        <div class="mr-lg-5 mr-3 kirigaris"><img src="lplogo/school.png" class="img3"></div>
+                        <div class="garis">
+                            <p class="text-dark mb-1">2021</p>
+                            <h4>Purwadhika</h4>
+                            <p class="mb-0">Web Developer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kol2">
+                        <div class="mr-lg-5 mr-3 kirigaris"><img src="lplogo/school.png" class="img3"></div>
+                            <div class="garis">
+                                <p class="text-dark mb-1">2016</p>
+                                <h4>Universitas X</h4>
+                                <p class="mb-0">Psychology</p>
+                            </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>   
+            <legend class="wed"><h4>Working Experiences</h4></legend>
+                <div class="container-edu">
+                    <div class="kol1">
+                        <div class="mr-lg-5 mr-3 kirigaris"><img src="https://img.icons8.com/fluent/48/ffffff/new-company.png" class="img3"></div>
+                        <div class="garis">
+                            <p class="text-dark mb-1">2013-now</p>
+                            <h4>PT. ABC</h4>
+                            <p class="mb-0">Taxation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kol2">
+                        <div class="mr-lg-5 mr-3 kirigaris"><img src="https://img.icons8.com/fluent/48/ffffff/new-company.png" class="img3"></div>
+                            <div class="garis">
+                                <p class="text-dark mb-1">2007-2013</p>
+                                <h4>PT. XYZ</h4>
+                                <p class="mb-0">Business Development</p>
+                            </div>
+                    </div>
+                </div>
+            </fieldset> 
+            </section>
+
+            
+            
+
+            <!-- Portfolio Bootstrap -->
+            <section class="pboot" id="porto">
+                <div><h2 class="sub"><b>Portfolio</b></h2></div>
+        
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="content"> <a href="#">
+                                <div class="content-overlay"></div> <img class="content-image" style="box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+                                border-radius: 5px; height: 250px;" src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_960_720.png">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Digital Marketing Project</h3>
+                                    <p class="content-text"><i class="fa fa-map-marker"></i> PT. ABC</p>
+                                </div>
+                            </a> </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="content"> <a href="#">
+                                <div class="content-overlay"></div> <img class="content-image" style="box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+                                border-radius: 5px" src="https://urtimate.com/images/pic03.jpg">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Ultimate Project</h3>
+                                    <p class="content-text"><i class="fa fa-map-marker"></i> PT. XYZ</p>
+                                </div>
+                            </a> </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="content"> <a href="#">
+                                <div class="content-overlay"></div> <img class="content-image" style="box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+                                border-radius: 5px"  src="https://www.dictio.id/uploads/db3342/original/3X/f/f/ff1f550829e0ffa01c26dec6ad0eeb82cfc5630d.jpeg">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">UI/UX Project</h3>
+                                    <p class="content-text"><i class="fa fa-map-marker"></i> PT. XYZ</p>
+                                </div>
+                            </a> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            
+
+            <!-- Blogs -->
+            <section id="service">
+                <div class="blogs">
+                    <h2 class="sub"><b>Services</b></h2>
+                    <div class="contblogs">
+                        <div class="cardblogs">
+                            <div class="fotoblogs">
+                                <img src="lplogo/4660741.jpg" class="fotoblogs">
+                            </div>
+                            <div class="judulblogs">
+                                <h4>Judul Services</h4>
+                                <div class="garisjudul"><hr style="background-color: #070d59;"></div>
+                            </div>
+                            <div class="pblogs">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore numquam architecto explicabo voluptates, error quae doloribus minus impedit, sunt perferendis cumque cupiditate nobis facere sit beatae nostrum! Officiis, laboriosam itaque.</p>
+                                <button class="btnblog">Read More</button>
+                            </div>
+                            
+                        </div>
+                        <div class="cardblogs1">
+                            <div class="fotoblogs">
+                                <img src="./lplogo/bungapb.jpg" class="fotoblogs">
+                            </div>
+                            <div class="judulblogs1">
+                                <h4>Judul Services</h4>
+                                <div class="garisjudul1"><hr></div>
+                            </div>
+                            <div class="pblogs1">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore numquam architecto explicabo voluptates, error quae doloribus minus impedit, sunt perferendis cumque cupiditate nobis facere sit beatae nostrum! Officiis, laboriosam itaque.</p>
+                                <button class="btnblog1">Read More</button>
+                            </div>
+                        
+                        </div>
+                        <div class="cardblogs">
+                            <div class="fotoblogs">
+                                <img src="./lplogo/4660743.jpg" class="fotoblogs">
+                            </div>
+                            <div class="judulblogs">
+                                <h4>Judul Services</h4>
+                                <div class="garisjudul"><hr  style="background-color: #070d59;"></div>
+                            </div>
+                            <div class="pblogs">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore numquam architecto explicabo voluptates, error quae doloribus minus impedit, sunt perferendis cumque cupiditate nobis facere sit beatae nostrum! Officiis, laboriosam itaque.</p>
+                                <button class="btnblog">Read More</button>
+                            </div>
+                            
+                        </div>
+                        <div class="cardblogs1">
+                            <div class="fotoblogs" >
+                                <img class="fotoblogs" src="./lplogo/13188.jpg">
+                            </div>
+                            <div class="judulblogs1">
+                                <h4>Judul Services</h4>
+                                <div class="garisjudul1"><hr></div>
+                            </div>
+                            <div class="pblogs1">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore numquam architecto explicabo voluptates, error quae doloribus minus impedit, sunt perferendis cumque cupiditate nobis facere sit beatae nostrum! Officiis, laboriosam itaque.</p>
+                                <button class="btnblog1">Read More</button>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog2 -->
+            <section style="margin-bottom:50px;" id="blogs">
+                <div>
+                    <h2 class="sub"><b>Blogs</b></h2>
+                    <div class="contblock">
+                        <div class="bloga">
+                           <div class="kotakgede">
+                               <div class="isiatas">
+                                    <div class="logokiri1">
+                                        <img class="imglogo" src="https://img.icons8.com/color/48/ffffff/google-alerts.png"/></div>
+                                    <div class="contisiatas">
+                                    <div class="pkiri">
+                                        <p>Update yourself</p>
+                                        <h6><b>How Can You Improve Your Knowledge</b></h6>
+                                    </div>
+                                    <div class="dgbrkanan"><img class="gbrkanan" src="./lplogo/grow.png"></div>
+                                    </div>
+                                </div>
+                               
+                               <div class="isibawah">
+                                    <p>September 5th, 2020</p>
+                                    <h5 style="margin-bottom: 0px;"><b>How Can You Improve Your Knowledge</b></h5>
+                                    <br><div><button class="buttonbwh">Read More <img style="background-color: #6e7aba;border-radius:5px;position:absolute;right:0;height:100%;padding: 1px 6px;" src="https://img.icons8.com/material-sharp/24/ffffff/long-arrow-right.png"/></button></div>
+                                </div>
+                           </div>
+                           <div class="kotakkecil">
+                                <div class="isiatas1">
+                                    <div class="logokiri1"><img class="imglogo" src="https://img.icons8.com/color/48/ffffff/google-alerts.png"></div>
+                                    <div class="contisiatas1">
+                                    <div class="pkiri">
+                                        <p>Digital Marketing</p>
+                                        <p style="font-size: 14px;"><b>Get a Good Digital Project</b></p>
+                                    </div>
+                                    <div class="dgbrkanan"><img class="gbrkanan" src="./lplogo/Team work_Monochromatic.png"></div>
+                                    </div>
+                                </div>
+                            
+                                <div class="isibawah">
+                                    <p>June 5th, 2020</p>
+                                    <h6><b>How to Get Yourself a Good Digital Project</b></h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia consequatur dolorum omnis odit sed.</p>
+                                    <div><button class="buttonbwh1"></button></div>
+                                    
+                                </div>
+                           </div>
+                           <div class="kotakkecil">
+                            <div class="isiatas2">
+                                <div class="logokiri1"><img class="imglogo" src="https://img.icons8.com/color/48/ffffff/google-alerts.png"></div>
+                                <div class="contisiatas1">
+                                <div class="pkiri">
+                                    <p>UI/UX Design</p>
+                                    <p style="font-size: 14px;"><b>How to Design A Website with Nicole</b></p>
+                                </div>
+                                <div class="dgbrkanan"><img class="gbrkanan" src="./lplogo/Team building _Monochromatic.png"></div>
+                                </div>
+                            </div>
+                        
+                            <div class="isibawah">
+                                <p>June 5th, 2020</p>
+                                <h6><b>How to Get Yourself a Good Digital Project</b></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia consequatur dolorum omnis odit sed.</p>
+                                <div><button class="buttonbwh1"></button></div>
+                                
+                            </div>
+                       </div>
+                        </div>
+                        <div class="blogb">
+                            <p style="width:20%;margin:0;">More Articles About My Blog</p>
+                            <div class="gariskepotong"></div>
+                        </div>
+                        <div class="blogc">
+                            <div class="kotakkecil">
+                                <div class="isiatas1">
+                                    <div class="logokiri1"><img class="imglogo" src="https://img.icons8.com/color/48/ffffff/google-alerts.png"></div>
+                                    <div class="contisiatas1">
+                                    <div class="pkiri">
+                                        <p>Digital Marketing</p>
+                                        <p style="font-size: 14px;"><b>How to Get Yourself a Job</b></p>
+                                    </div>
+                                    <div class="dgbrkanan"><img class="gbrkanan" src="./lplogo/Team meeting_Monochromatic.png"></div>
+                                    </div>
+                                </div>
+                            
+                                <div class="isibawah">
+                                    <p>June 5th, 2020</p>
+                                    <h6><b>How to Get Yourself a Good Digital Project</b></h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia consequatur dolorum omnis odit sed, laborum quo veritatis.</p>
+                                    <div><button class="buttonbwh1"></button></div>
+                                    
+                                </div>
+                           </div>
+                           <div class="kotakkecil">
+                            <div class="isiatas2">
+                                <div class="logokiri1"><img class="imglogo" src="https://img.icons8.com/color/48/ffffff/google-alerts.png"></div>
+                                <div class="contisiatas1">
+                                <div class="pkiri">
+                                    <p>UI/UX Design</p>
+                                    <p style="font-size: 14px;"><b>Design A Website with Nicole</b></p>
+                                </div>
+                                <div class="dgbrkanan"><img class="gbrkanan" src="./lplogo/Online presentation_Monochromatic.png"></div>
+                                </div>
+                            </div>
+                        
+                            <div class="isibawah">
+                                <p>June 5th, 2020</p>
+                                <h6><b>How to Get Yourself a Good Digital Project</b></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia consequatur dolorum omnis odit sed, laborum quo veritatis.</p>
+                                <div><button class="buttonbwh1"></button></div>
+                                
+                            </div>
+                            </div>
+                            <div class="kotakkecil">
+                                <div class="isiatas3">
+                                    <div class="logokiri1"><img class="imglogo" src="https://img.icons8.com/color/48/ffffff/google-alerts.png"></div>
+                                    <div class="contisiatas1">
+                                    <div class="pkiri">
+                                        <p>Taxation</p>
+                                        <p style="font-size: 14px;"><b>Guide to Calculate Company's Tax<br><br></b></p>
+                                    </div>
+                                    <div class="dgbrkanan"><img class="gbrkanan" src="./lplogo/Finance analytics _Two Color.png"></div>
+                                    </div>
+                                </div>
+                            
+                                <div class="isibawah">
+                                    <p>June 5th, 2020</p>
+                                    <h6><b>How to Get Yourself a Good Digital Project</b></h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia consequatur dolorum omnis odit sed, laborum quo veritatis.</p>
+                                    <div><button class="buttonbwh1"></button></div>
+                                    
+                                </div>
+                           </div>
+                           <div class="kotakkecil">
+                            <div class="isiatas4">
+                                <div class="logokiri1"><img class="imglogo" src="https://img.icons8.com/color/48/ffffff/google-alerts.png"></div>
+                                <div class="contisiatas1">
+                                <div class="pkiri">
+                                    <p>Financial Technique</p>
+                                    <p style="font-size: 14px;"><b>Technical Analysist 101<br><br></b></p>
+                                </div>
+                                <div class="dgbrkanan"><img class="gbrkanan" src="./lplogo/Analyzing process_Outline.png"></div>
+                                </div>
+                            </div>
+                        
+                            <div class="isibawah">
+                                <p>June 5th, 2020</p>
+                                <h6><b>How to Get Yourself a Good Digital Project</b></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia consequatur dolorum omnis odit sed, laborum quo veritatis.</p>
+                                <div><button class="buttonbwh1"></button></div>
+                                
+                            </div>
+                       </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section>
+                <div class="contserv">
+                    <h2 class="sub"><b>Testimonials</b></h2>
+                    <div class="totalkotak">
+                        <div class="pembagian">
+                            
+                        <div class="perkotak">
+                            <div class="kotak_kiri"></div>
+                            <div class="kotak_kanan">
+                                <h5>Teresa</h5>
+                                <p>Great Work!</p>
+                                <div class="namaa">Teresa</div>
+                            </div>
+                        </div>
+                           
+                        <div class="perkotak">
+                            <div class="kotak_kiri"></div>
+                            <div class="kotak_kanan">
+                                <h5>Teresa</h5>
+                                <p>Great Work!</p>
+                                <div class="namaa">Teresa</div>
+                            </div>
+                        </div>
+                        
+                        <div class="perkotak">
+                            <div class="kotak_kiri"></div>
+                            <div class="kotak_kanan">
+                                <h5>Teresa</h5>
+                                <p>Great Work!</p>
+                                <div class="namaa">Teresa</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials
+            <section>
+                <div class="carousel">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./lplogo/pen.gif" class="d-block w-100" style="width:50%;height:50%;">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./lplogo/plus.gif" class="d-block w-100" style="width:50%;height:50%;">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./lplogo/arrow.gif" class="d-block w-100" style="width:50%;height:50%;">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section> -->
+
+<!-- clients
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">My Clients</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="client-logo-slider d-flex align-items-center">
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+            <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+                src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+            <!-- Contact -->
+            
+            <section class="sectfoot" id="contact">
+                
+                <div>
+                    <h2 class="sub" style="opacity:1;"><b>Contact Information</b></h2>
+                    <div class="contform">
+                        
+                        <div class="card">
+                            <h4>Contact Form</h4><br>
+                            <div>
+                            <form class="forrm">
+                                <div class="form-atas">
+                                    <div class="nama1"><input type="text" placeholder="Name" class="input"></div>
+                                    <div class="email"><input type="text" placeholder="Email"class="input"></div>
+                                </div>
+                                <!-- <div class="form-bawah"><input type="text" placeholder="Enter your text.."class="input"></div> -->
+                                <textarea class="form-bawah px-0 mb-4" placeholder="Enter your text here..."></textarea>
+                            </form>
+                            </div>
+                            <br>
+                            <div><button class="btn-form">Send</button></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="sblmfooter"></div> -->
+            
+            </section>
+            <!-- Footer -->
+            <footer class="foot">
+                    
+                <div class="contfoot">
+                    <div class="contservice">
+                        <h4>My Service</h4>
+                        Web Developer<br>
+                        UI/UX Design<br>
+                        Digital Marketing<br>
+                        Graphic Design</bold>
+                    </div>
+                    <div class="continfo">
+                        <h4>Contact Info</h4>
+                        <bold>Phone No:</bold>&emsp;+6290909090<br>
+                        <bold>Email:</bold>&emsp;&emsp;&ensp;&ensp;name@gmail.com<br>
+                        <bold>Location:</bold>&emsp;&ensp;Jakarta
+                    </div>
+                </div>
+                <div class="copy">
+                    <hr>
+                    <p>Copyright ©<script>
+                        var CurrentYear = new Date().getFullYear()
+                        document.write(CurrentYear)
+                    </script> a theme by Nicole</p>
+                </div>
+            </footer>
+        
+      </div> 
+    
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 20;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+
+function updateProgressBar(progressBar,value){
+    
+    value = Math.round(value);
+    progressBar.querySelector(".progress__fill").style.width = `${value}%`;
+    progressBar.querySelector(".progress__text").textContent = `${value}%`;
+}
+
+function showProgressBar() {
+    const pBar = document.querySelector(".progress");
+const pBar1 = document.querySelector(".progress1");
+const pBar2 = document.querySelector(".progress2");
+const pBar3 = document.querySelector(".progress3");
+// document.getElementById("bar1").addEventListener("scroll",updateProgressBar(pBar,85));
+updateProgressBar(pBar,90);
+updateProgressBar(pBar1,95);
+updateProgressBar(pBar2,95);
+updateProgressBar(pBar3,100);
+}
+
+
+// document.getElementById("bar1") = updateProgressBar("80%");
+
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+  document.body.style.backgroundColor = "white";
+} 
+</script>
+</html>
